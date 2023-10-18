@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@fs/zion-map 🗺️ </title>
+    <meta name="description" content="Zion Shared Components - @fs/zion-map - Level-up - October 18, 2023">
+    <!-- https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/css/impress-common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/examples/classic-slides/css/classic-slides.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/examples/classic-slides/css/fonts.css">
+    <link rel="stylesheet" href="./extras/highlight/styles/github.css">
+    <link rel="stylesheet" href="./extras/mermaid/mermaid.forest.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div
+        id="impress"
+        data-transition-duration="1000"
+        data-width="1920"
+        data-height="1080"
+        data-max-scale="3"
+        data-min-scale="0"
+        data-perspective="1000"
+    >
+    <div id="jokes" class="step slide markdown" data-rel-position="relative" data-rel-x="2200" data-rel-y="600" data-rel-rotate-z="30">
+# Zion Shared Components: @fs/zion-map
+
+![joke](images/halloween-joke.png)
+
+-----
+### Try this in JS: `031 === 25`
+
+![joke](images/halloween-christmas-joke.png "031 === 25")
+        </div>
+        <div id="intro" class="step slide markdown" data-rel-position="relative" data-rel-x="0" data-rel-y="0" data-rel-z="-1500" data-rel-rotate-z="45">
+# Overview
+
+- Quick intro
+    - Self
+    - Chinese Homeland
+    - What this is and isn't ![notice](./images/notice.png)
+- Requirements Gathering
+- Zion Shared Components
+- `@fs/zion-map` Components
+- Looking Forward
+        </div>
+        <div id="requirements" class="step slide markdown" data-rel-position="relative" data-rel-x="0" data-rel-y="0" data-rel-z="-1500" data-rel-rotate-z="45">
+# Requirements Gathering
+
+- Easy way to include maps (i.e. Use Zion Shared Components)
+- Require a map solution that can work inside mainland China
+  - The Great Firewall of China
+  - Google Maps is blocked
+- Primarily use Google Maps
+- Only support base map, simple marker, and simple boundary to start. ![notice](./images/notice.png)
+  - MVP - aka. Minimum Viable Product
+- Cross-team communication
+        </div>
+        <div id="document" class="step slide markdown" data-rel-position="relative" data-rel-x="2200" data-rel-y="600" data-rel-rotate-z="30" data-rel-z="0">
+# Document as you go
+
+- Architectural Decisions
+  - [Frontier](https://beta.familysearch.org/frontier/docs/architectural-decisions/000-adr) 
+  - [Github](https://github.com/fs-webdev/frontier-hub/blob/master/docs/architectural-decisions/022-mapping-solutions.md) ![notice](./images/notice.png)
+- [Confluence](https://fhconfluence.churchofjesuschrist.org/pages/viewpage.action?spaceKey=UX&title=Zion+Map+Requirements)
+        </div>
+        <div id="poll-1" class="step slide" data-rel-position="relative" data-rel-x="2200" data-rel-y="600" data-rel-rotate-z="30" data-rel-z="0">
+            <h2>Now what? - Anonymous Poll</h2>
+            <img class="qrcode" src="images/experience-qrcode.png" alt="https://etc.ch/n6Vz">
+            <iframe src="https://directpoll.com/r?XDbzPBdJ2bAX0ZEeZfyAgfadsxN2YjHna2gtIyIz" frameborder="0"></iframe>
+            <div class="poll-url">https://etc.ch/n6Vz</div>
+        </div>
+        <div id="poll-2" class="step slide" data-rel-position="relative" data-rel-x="2200" data-rel-y="600" data-rel-rotate-z="30" data-rel-z="0">
+            <h2>Now what? - Anonymous Poll</h2>
+            <img class="qrcode" src="images/experience-qrcode.png" alt="https://etc.ch/n6Vz">
+            <iframe src="https://directpoll.com/r?XDbzPBdJ3cBY1aFfagzBhgbetyO3ZkIob3huJzJ0" frameborder="0"></iframe>
+            <div class="poll-url">https://etc.ch/n6Vz</div>
+        </div>
+        <div id="poll-3" class="step slide" data-rel-position="relative" data-rel-x="2200" data-rel-y="600" data-rel-rotate-z="30" data-rel-z="0">
+            <h2>Now what? - Anonymous Poll</h2>
+            <img class="qrcode" src="images/experience-qrcode.png" alt="https://etc.ch/n6Vz">
+            <iframe src="https://directpoll.com/r?XDbzPBdJ4dCZ2bGgbh0CihcfuzP4alJpc4ivK0K1" frameborder="0"></iframe>
+            <div class="poll-url">https://etc.ch/n6Vz</div>
+        </div>
+        <div id="go-here" class="step slide markdown" data-rel-position="relative" data-rel-x="0" data-rel-y="0" data-rel-z="-1500" data-rel-rotate-z="45">
+# Go Here
+
+www.familysearch.org/frontier
+
+- Own a package - /docs/zion/owning-a-package
+        </div>
+        <div id="challenges" class="step slide markdown" data-rel-position="relative" data-rel-x="2200" data-rel-y="600" data-rel-rotate-z="30" data-rel-z="0">
+# Challenges
+
+- Existing non-compliant components ![notice](./images/notice.png)
+  - Don't do everything
+- Own the components ![notice](./images/notice.png)
+ - /docs/zion/owning-a-package
+- PR reviews ![notice](./images/notice.png)
+ - /docs/zion/pull-requests
+- Testing ![notice](./images/notice.png)
+-----
+> Keep working at it.
+> Don't give up.
+
+![pr](./images/pr.png)
+-----
+# Help along the way
+
+![checklist](./images/checklist.png)
+
+- Those that helped me reach the finish line and create a better API surface
+- Those that helped me get to a better MVP  
+- Many, Many others
+        </div>
+        <div id="success" class="step slide markdown" data-rel-position="relative" data-rel-x="0" data-rel-y="0" data-rel-z="-1500" data-rel-rotate-z="45">
+# Success
+
+- Storybook Publishing ![notice](./images/notice.png)
+  - All tests pass and clean build
+- [@fs/zion-map](https://beta.familysearch.org/frontier/zion/?path=/docs/shared-components-map--docs)
+- Records Search
+- Surname
+        </div>
+        <div id="end" class="step markdown" data-x="4500" data-y="0" data-scale="12" style="pointer-events: none;">
+# Questions/Comments
+        </div>
+    </div>
+    <!-- <div id="impress-toolbar"></div> -->
+    <!-- <div id="impress-help"></div> -->
+    <script src="./extras/highlight/highlight.pack.js"></script>
+    <script src="./extras/mermaid/mermaid.min.js"></script>
+    <script src="./extras/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

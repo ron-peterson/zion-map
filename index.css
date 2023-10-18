@@ -1,0 +1,35 @@
+.slide {
+    background-image: url("./images/familysearch.svg");
+    background-repeat: no-repeat;
+    background-size: 68px;
+    background-position: bottom 50px right 50px;
+}
+
+img[alt="notice"] {
+    aspect-ratio: 66 / 86;
+    display: inline-block;
+    max-height: 1em;
+    width: auto;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    height: 750px;
+    width: auto;
+}
+
+img.qrcode {
+    aspect-ratio: 1 / 1;
+    height: 200px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: auto;
+}
+
+div.poll-url {
+    top: 230px;
+    right: 50px;
+    position: absolute;
+    font-size: 30px;
+}
